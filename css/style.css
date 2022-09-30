@@ -1,0 +1,77 @@
+@charset"utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700;900&display=swap');
+
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+img {vertical-align: middle;}
+
+
+body{font-family: 'Noto sans KR',sans-serif;font-size: 16px;line-height: 1.5;}
+.wrap{overflow: hidden;width: 100%; margin: 0 auto;}
+
+
+.inner{width: 1100px; margin: 0 auto;}
+
+.visual {width: 100%; height: 950px; background: url(../img/visual.png) no-repeat center/cover ;border-top: 1px solid #f3c565;}
+.visual .inner .mainTitle{ text-transform: uppercase; line-height: 1.2; margin-top: 100px;}
+
+
+.visual .inner .mainTitle p .top{font-size: 43px; letter-spacing: 8px;margin-bottom: 50px;}
+.visual .inner .mainTitle h1{font-size: 200px; letter-spacing: 105px; margin-bottom: 50px;}
+.visual .inner .mainTitle p .bottom{
+  font-size: 20px; color:#000 ;}
+.visual .inner .textBox{border: 1px solid rgba(255,255,255,0.5); border-radius: 20px; padding: 40px 50px 50px;box-sizing: border-box;margin-top: 50px;}
+.visual .inner .textBox .subTitle{font-size: 30px;text-transform: uppercase;letter-spacing: 8px; margin-bottom:10px;position: relative; display: inline-block; }
+.visual .inner .textBox .subTitle:after{content:"";width: 50px; height: 6px; background: #fff;position: absolute;padding-right: 60px;top: 50%; margin-top: -3px; }
+
+
+
+.textBox .title_s{text-transform: uppercase; font-size: 30px; letter-spacing: 8px;margin-bottom: 10px;position: relative;display: inline-block;}
+.textBox .title_s:after{content: ""; width: 50px; height: 6px; background: #000; position: absolute; ;top: 50%; margin-top: -3px;}
+
+
+.textBox .title_num{display: block;float: right;font-size: 32px; font-weight: 900; letter-spacing: -2px; position: relative;}
+.textBox .title_num:after{content: "";width: 40px; height: 4px; background: #000; position: absolute; right: 0; bottom: 0;}
+.textBox .title_btn{display: inline-block; font-weight: bold; color: #fff; background: #000; padding: 5px 30px; font-size: 20px; letter-spacing: 2px; margin-bottom: 40px;}
+
+section.living{padding: 100px 0;}
+section.living .textBox p{margin: 20px 0 30px;}
+section.living .list{ overflow: hidden;}
+section.living .list li{ float: left; margin-bottom: 20px;}
+section.living .list li a{ display: block;overflow: hidden;}
+section.living .list li:nth-child(2){ float: left;}
+section.living .list a img{width: 100%; transition: all 0.5s;}
+section.living .list a:hover img,
+section.living .list a:focus img{transform: scale(1.2);transition: all 1s;}
+
+section.clothing{padding: 100px 0; background:#f0f0f0;}
+section.clothing .textBox p{margin: 20px 0 30px;}
+section.clothing .list{overflow: hidden;}
+section.clothing .list li{float: left;}
+section.clothing .list li:nth-child(2){float: right; margin-bottom: 20px;}
+section.clothing .list li:nth-child(3){float: right;}
+section.clothing .list a{display: block;overflow: hidden;}
+section.clothing .list a img{width: 100%; transition: all 0.5s;}
+
+
+
+
+section.clothing .list li a:hover img,
+section.clothing .list li a:focus img{
+  transform: scale(1.2) ;transition: all 1s;}
+section.clothing .list li a{
+  display: block; overflow: hidden;}
+
+footer{padding:0 0 100px;text-align: center;font-size: 14px;background-color:  #f0f0f0}
+
+
+
+
+
+
+
+
+
+
